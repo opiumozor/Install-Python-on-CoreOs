@@ -1,7 +1,7 @@
 #!/bin/bash -uxe
 
 VERSION=2.7.14.2717
-PACKAGE=ActivePython-${VERSION}-linux-x86_64-glibc-2.12-402695
+PACKAGE=ActivePython-${VERSION}-linux-x86_64-glibc-2.12-404899.tar.gz
 
 # make directory
 mkdir -p /opt/bin
