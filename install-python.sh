@@ -5,6 +5,7 @@ PACKAGE=ActivePython-${VERSION}-linux-x86_64-glibc-2.3.6-401834
 
 # make directory
 mkdir -p /opt
+mkdir -p /opt/bin
 cd /opt
 
 wget http://downloads.activestate.com/ActivePython/releases/${VERSION}/${PACKAGE}.tar.gz
