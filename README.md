@@ -8,7 +8,7 @@ INSTALL
 =======
 
 ```
-wget -qO- https://raw.githubusercontent.com/judexzhu/Install-Python-on-CoreOs/master/install-python.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/opiumozor/Install-Python-on-CoreOs/master/install-python.sh | sudo bash
 ```
 
 RUNNING
