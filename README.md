@@ -1,7 +1,7 @@
-# python-on-coreos
+# Install Python on CoreOS
 Python on CoreOS. works well with ansible.
 
-this script install Active Python x86_64 binary to CoreOS.
+This script install Active Python 3.6 x86_64 binary to CoreOS.
 
 
 INSTALL
@@ -27,13 +27,3 @@ cat > ~/.bashrc << EOF
 export PATH=\$PATH:/opt/bin
 EOF
 ```
-
-
-WITH ANSIBLE
-============
-check sample-ansible-hosts file. there would be all you need to.
-
-```
-ansible -m setup -i hosts core-01
-```
-
